@@ -1,6 +1,35 @@
 .login{
     display: flex;
 }
-.loginimage{
-    width: 500px;
+.staticimage{
+    width: 50%;
+    align-self: center;
 }
+.loginimage{
+    width: 100%;
+}
+.loginDetails{
+    width: 50%;
+    text-align: center;
+    align-self: center;
+}
+.userinput, .userpassword{
+    padding: 10px;
+    font-size: 16px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.submitbtn{
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: blue;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: #fff;
+}
+/* .nameError, .passError{
+    visibility: hidden;
+    padding-bottom: 15px;
+    color: red;
+} */
